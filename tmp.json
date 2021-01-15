@@ -1,0 +1,228 @@
+{
+   "id":14628369301658,
+   "token":"36f3be10920b28f98697226b74b9b828",
+   "cart_token":"e321a9d7d1c47e3b57666b20d89cb08e",
+   "email":"pythonguru101@gmail.com",
+   "gateway":null,
+   "buyer_accepts_marketing":false,
+   "created_at":"2020-08-22T13:27:25-04:00",
+   "updated_at":"2020-08-22T13:28:04-04:00",
+   "landing_site":"/admin/settings/notifications",
+   "note":null,
+   "note_attributes":[
+
+   ],
+   "referring_site":"",
+   "shipping_lines":[
+      {
+         "code":"Standard OKC",
+         "price":"30.00",
+         "original_shop_price":"30.0",
+         "original_shop_markup":null,
+         "source":"shopify",
+         "title":"Standard OKC",
+         "presentment_title":"Standard OKC",
+         "phone":null,
+         "tax_lines":[
+
+         ],
+         "custom_tax_lines":null,
+         "validation_context":null,
+         "markup":null,
+         "delivery_category":null,
+         "carrier_identifier":null,
+         "carrier_service_id":null,
+         "api_client_id":null,
+         "requested_fulfillment_service_id":null,
+         "applied_discounts":[
+
+         ],
+         "id":"7b36401b1d690f2605627bcd80d6f0fa"
+      }
+   ],
+   "taxes_included":false,
+   "total_weight":6000,
+   "currency":"CAD",
+   "completed_at":null,
+   "closed_at":null,
+   "user_id":null,
+   "location_id":null,
+   "source_identifier":null,
+   "source_url":null,
+   "device_id":null,
+   "phone":null,
+   "customer_locale":"en",
+   "line_items":[
+      {
+         "applied_discounts":[
+
+         ],
+         "key":"2d26d516cf642419d102b847d720c789",
+         "destination_location_id":null,
+         "fulfillment_service":"manual",
+         "gift_card":false,
+         "grams":1000,
+         "origin_location_id":2245351997594,
+         "presentment_title":"Vitamin B12",
+         "presentment_variant_title":"",
+         "product_id":5628871245978,
+         "properties":[
+
+         ],
+         "quantity":1,
+         "requires_shipping":true,
+         "sku":"qwe",
+         "tax_lines":[
+
+         ],
+         "taxable":true,
+         "title":"Vitamin B12",
+         "variant_id":35768938528922,
+         "variant_title":"",
+         "variant_price":"12.00",
+         "vendor":"Immuno4ce",
+         "user_id":null,
+         "unit_price_measurement":{
+            "measured_type":null,
+            "quantity_value":null,
+            "quantity_unit":null,
+            "reference_value":null,
+            "reference_unit":null
+         },
+         "country_hs_codes":[
+
+         ],
+         "country_code_of_origin":"CA",
+         "province_code_of_origin":null,
+         "harmonized_system_code":null,
+         "rank":null,
+         "compare_at_price":"24.00",
+         "line_price":"12.00",
+         "price":"12.00"
+      },
+      {
+         "applied_discounts":[
+
+         ],
+         "key":"b762e2dc4c7990279eb61666ce6d574a",
+         "destination_location_id":null,
+         "fulfillment_service":"manual",
+         "gift_card":false,
+         "grams":5000,
+         "origin_location_id":2245351997594,
+         "presentment_title":"Amoxicillin",
+         "presentment_variant_title":"",
+         "product_id":5644589203610,
+         "properties":[
+
+         ],
+         "quantity":1,
+         "requires_shipping":true,
+         "sku":"",
+         "tax_lines":[
+
+         ],
+         "taxable":true,
+         "title":"Amoxicillin",
+         "variant_id":35832117264538,
+         "variant_title":"",
+         "variant_price":"10.00",
+         "vendor":"Immuno4ce",
+         "user_id":null,
+         "unit_price_measurement":{
+            "measured_type":null,
+            "quantity_value":null,
+            "quantity_unit":null,
+            "reference_value":null,
+            "reference_unit":null
+         },
+         "country_hs_codes":[
+
+         ],
+         "country_code_of_origin":null,
+         "province_code_of_origin":null,
+         "harmonized_system_code":null,
+         "rank":null,
+         "compare_at_price":"20.00",
+         "line_price":"10.00",
+         "price":"10.00"
+      }
+   ],
+   "name":"#14628369301658",
+   "source":null,
+   "abandoned_checkout_url":"https://immuno4ce.myshopify.com/43763368090/checkouts/36f3be10920b28f98697226b74b9b828/recover?key=aa37752003eb75eb303dcd9dc2856f72",
+   "discount_codes":[
+
+   ],
+   "tax_lines":[
+
+   ],
+   "source_name":"web",
+   "presentment_currency":"CAD",
+   "total_discounts":"0.00",
+   "total_line_items_price":"22.00",
+   "total_price":"52.00",
+   "total_tax":"0.00",
+   "subtotal_price":"22.00",
+   "total_duties":null,
+   "shipping_address":{
+      "first_name":"Jacob",
+      "address1":"a",
+      "phone":null,
+      "city":"c",
+      "zip":"32006",
+      "province":"Florida",
+      "country":"United States",
+      "last_name":"Smith",
+      "address2":"a",
+      "company":null,
+      "latitude":30.1101247,
+      "longitude":-81.71999269999999,
+      "name":"Jacob Smith",
+      "country_code":"US",
+      "province_code":"FL"
+   },
+   "customer":{
+      "id":3884908904602,
+      "email":"pythonguru101@gmail.com",
+      "accepts_marketing":false,
+      "created_at":"2020-08-20T02:38:38-04:00",
+      "updated_at":"2020-08-22T13:27:55-04:00",
+      "first_name":"Jacob",
+      "last_name":"Smith",
+      "orders_count":0,
+      "state":"disabled",
+      "total_spent":"0.00",
+      "last_order_id":null,
+      "note":null,
+      "verified_email":true,
+      "multipass_identifier":null,
+      "tax_exempt":false,
+      "phone":null,
+      "tags":"",
+      "last_order_name":null,
+      "currency":"CAD",
+      "accepts_marketing_updated_at":"2020-08-20T02:38:38-04:00",
+      "marketing_opt_in_level":null,
+      "admin_graphql_api_id":"gid://shopify/Customer/3884908904602",
+      "default_address":{
+         "id":4607694700698,
+         "customer_id":3884908904602,
+         "first_name":"Jacob",
+         "last_name":"Smith",
+         "company":null,
+         "address1":"a",
+         "address2":"a",
+         "city":"c",
+         "province":"Florida",
+         "country":"United States",
+         "zip":"32004",
+         "phone":null,
+         "name":"Jacob Smith",
+         "province_code":"FL",
+         "country_code":"US",
+         "country_name":"United States",
+         "default":true
+      }
+   }
+}

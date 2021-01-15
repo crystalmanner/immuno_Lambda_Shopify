@@ -1,0 +1,33 @@
+service: Order
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: ${opt:stage, 'dev'}
+  region: ${file(./config.json):REGION}
+  profile: default
+  environment:
+    REGION: ${file(./config.json):REGION}
+    ACCESS_KEY_ID: ${file(./config.json):ACCESS_KEY_ID}
+    SECRET_ACCESS_KEY: ${file(./config.json):SECRET_ACCESS_KEY}
+    OKCAPSULE_API_KEY: ${file(./config.json):OKCAPSULE_API_KEY}
+    OKCAPSULE_USER_ID: ${file(./config.json):OKCAPSULE_USER_ID}
+    webhook_verify_hash: ${file(./config.json):webhook_verify_hash}
+package:
+  exclude:
+    - node_modules/**
+    - env/**
+    - config.json
+
+functions:
+  handler:
+    handler: handler.handler
+    name: Order
+    description: Immuno4ce Order Micro-Service
+    timeout: 600
+    reservedConcurrency: 1
+
+plugins:
+  - serverless-python-requirements
+  - serverless-pseudo-parameters
+  - serverless-prune-plugin

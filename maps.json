@@ -1,0 +1,39 @@
+{
+  "maps": [
+    {
+      "pId": "5509450465434",
+      "fIds": [
+        {"id": "a322f0000009ReVAAU", "ssn": 1, "toa": "Morning;Evening"},
+        {"id": "a322f0000009ReaAAE", "ssn": 1, "toa": "Morning"}
+      ]
+    },
+    {
+      "pId": "5509451317402",
+      "fIds": [
+        {"id": "a322f0000009ReVAAU", "ssn": 1, "toa": "Morning;Evening"},
+        {"id": "a322f0000009ReaAAE", "ssn": 1, "toa": "Morning"}
+      ]
+    },
+    {
+      "pId": "5509459378330",
+      "fIds": [
+        {"id": "a322f0000009ReVAAU", "ssn": 1, "toa": "Morning;Evening"},
+        {"id": "a322f0000009ReaAAE", "ssn": 1, "toa": "Morning"}
+      ]
+    },
+    {
+      "pId": "5628871245978",
+      "fIds": [
+        {"id": "a322f0000009ReVAAU", "ssn": 1, "toa": "Morning;Evening"},
+        {"id": "a322f0000009ReaAAE", "ssn": 1, "toa": "Morning"}
+      ]
+    },
+    {
+      "pId": "5644589203610",
+      "fIds": [
+        {"id": "a322f0000009ReVAAU", "ssn": 1, "toa": "Morning;Evening"},
+        {"id": "a322f0000009ReaAAE", "ssn": 1, "toa": "Morning"}
+      ]
+    }
+  ]
+}
